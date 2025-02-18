@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(48, 41, 110); /* Added semicolon */
+    background-color: #d9d9da;
+    padding: 30px;
+}
+
+
+/* Header */
+header {
+    background: #6e5708;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.7rem;
+}
+main {
+        max-width: 800px;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+        color: white; /* Ensures text is readable */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px hsl(0, 0%, 93%);
+        background-image: url('pic3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+
+section {
+    margin-bottom: 15px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #e2c107;
+    margin-bottom: 10px;
+}
+
+section p, section ul, section ol {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+section ul, section ol {
+    margin-left: 20px;
+}
+main {
+    
+        background-image: url('pic3.jpg');
+        background-size: cover;  
+        background-position: center;  
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh; 
+        padding: 20px; 
+    }    
+    .container {
+        max-width: 900px; /* Adjust width as needed */
+        margin: 20px auto; /* Centers the container */
+        padding: 20px;
+        border: 5px solid #665300; /* Adds a thick border */
+        border-radius: 15px; /* Rounded corners */
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Adds a shadow for better effect */
+        background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    }
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #6e5708;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a {
+    font-size: 1.2rem; 
+    color: #e2c107;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #e2c107; 
+    text-decoration: underline; 
+}
